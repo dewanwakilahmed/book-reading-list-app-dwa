@@ -1,0 +1,59 @@
+.theme-toggle-btn {
+  @apply size-10 
+  p-2 
+  hover:text-amber-500 
+  dark:hover:text-amber-400;
+}
+
+.theme-toggle-btn--dark,
+.theme-toggle-btn--light {
+  @apply h-full 
+  w-full;
+}
+
+.navbar {
+  @apply bg-background 
+  sticky 
+  top-0 
+  z-10 
+  w-full 
+  border-b;
+}
+
+.navbar__container {
+  @apply flex 
+  h-16 
+  items-center 
+  px-4 
+  sm:px-8 
+  lg:px-44;
+}
+
+.navbar__content {
+  @apply mx-auto 
+  w-full 
+  max-w-3xl 
+  space-y-20;
+}
+
+.navbar__row {
+  @apply flex 
+  justify-between;
+}
+
+.navbar__start {
+  @apply flex 
+  flex-1 
+  items-center 
+  justify-start;
+}
+
+.navbar__link {
+  @apply size-10 
+  p-2 
+  text-primary;
+}
+
+.navbar__icon {
+  @apply size-full;
+}

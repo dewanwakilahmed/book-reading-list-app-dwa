@@ -1,0 +1,17 @@
+.layout {
+  @apply min-h-screen 
+  relative 
+  bg-background;
+}
+
+.layout__main {
+  @apply p-4 
+  sm:px-8 
+  lg:px-44;
+}
+
+.layout__content {
+  @apply mx-auto 
+  max-w-3xl 
+  space-y-8;
+}
