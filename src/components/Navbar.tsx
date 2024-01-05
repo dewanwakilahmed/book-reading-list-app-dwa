@@ -27,7 +27,7 @@ const ThemeToggle = () => {
 };
 
 // navbar component
-const Navbar = ({ className }) => {
+const Navbar = () => {
   return (
     <header className='navbar'>
       <div className='navbar__container'>

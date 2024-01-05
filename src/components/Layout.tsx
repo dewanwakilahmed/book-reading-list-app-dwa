@@ -10,7 +10,7 @@ import Navbar from '@/components/Navbar';
 export const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className='layout'>
-      <Navbar className='layout__navbar' />
+      <Navbar />
 
       <main className='layout__main'>
         <div className='layout__content'>{children}</div>
